@@ -36,7 +36,9 @@ You are going to build your own Temporal application in TypeScript! But first, a
 
 Now that you've run a basic `hello world` application, it's time for you to try creating your own application.
 
-### Create Your Own Application Setup
+## Create Your Own Application 
+
+### Setup
 
 1. Kill the Worker from the `hello-world` project. In the terminal window where your Worker is running, do `CTRL C`, right click the terminal window, and click `Kill Terminal`. This terminal window will now be removed.
 1. In the terminal window where your `hello world` Workflow was running, navigate into the `create-your-app` folder where some boiler code is already provided for you to get started.
