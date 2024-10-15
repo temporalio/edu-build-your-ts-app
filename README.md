@@ -5,7 +5,7 @@ You are going to build your own Temporal application in TypeScript! But first, a
 ## How to Navigate to Your Files
 
 1. Before you begin, you need to know how to navigate to certain files using git.    
-- **Listing Files in a Directory**: In your terminal window, enter `ls` to list the contents of the current folder that you are in. Go ahead and try it now! You should the directory files listed such as `README.md`, `hello-world`, `create-your-app`.
+- **Listing Files in a Directory**: In your terminal window, enter `ls` to list the contents of the current folder that you are in. Go ahead and try it now! You should see the directory files listed such as `README.md`, `hello-world`, `create-your-app`.
 - **Entering a Folder**: To go into a folder, type `cd` followed by the folder name. For example, if you do `cd hello-world`, you will now enter the `hello-world` folder.   
     - Try it now and you will see that you have entered the `hello-world` directory. 
     - Type `ls` again to list all the files in your `hello-world` folder.
