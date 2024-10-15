@@ -4,7 +4,7 @@ You are going to build your own Temporal application in TypeScript! But first, a
 
 ## How to Navigate to Your Files
 
-1. Before you begin, you need to know how to navigate to certain files using git.    
+Before you begin, you need to know how to navigate to certain files using git.    
 - **Listing Files in a Directory**: In your terminal window, enter `ls` to list the contents of the current folder that you are in. Go ahead and try it now! You should see the directory files listed such as `README.md`, `hello-world`, `create-your-app`.
 - **Entering a Folder**: To go into a folder, type `cd` followed by the folder name. For example, if you do `cd hello-world`, you will now enter the `hello-world` folder.   
     - Try it now and you will see that you have entered the `hello-world` directory. 
@@ -41,12 +41,12 @@ Now that you've run a basic `hello world` application, it's time for you to try 
 ### Setup
 
 1. Kill the Worker from the `hello-world` project. In the terminal window where your Worker is running, do `CTRL C`, right click the terminal window, and click `Kill Terminal`. This terminal window will now be removed.
-1. In the terminal window where your `hello world` Workflow was running, navigate into the `create-your-app` folder where some boiler code is already provided for you to get started.
+2. In the terminal window where your `hello world` Workflow was running, navigate into the `create-your-app` folder where some boiler code is already provided for you to get started.
     - Enter `cd ..` to navigate back out to the parent directory. You should now be back in the root directory.
     - Enter `ls` to see all the directories. You should see a `create-your-app` directory.
     - Enter the `create-your-app` directory by entering `cd create-your-app`.
-2. Install your dependencies by running `npm install` in the same terminal window you used to navigate into this directory.
-3. Start a Temporal Worker that will listen for any work that needs to be performed by running `npm run start.watch` in the same terminal window.
-4. Now open a new terminal window where you will run your workflow with `npm run workflow` once you've created your own workflow.
+3. Install your dependencies by running `npm install` in the same terminal window you used to navigate into this directory.
+4. Start a Temporal Worker that will listen for any work that needs to be performed by running `npm run start.watch` in the same terminal window.
+5. Now open a new terminal window where you will run your workflow with `npm run workflow` once you've created your own workflow.
 
 Have fun building!
