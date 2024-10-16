@@ -22,7 +22,7 @@ async function run() {
 
   // We are starting the `example` Workflow
   const handle = await client.workflow.start(example, {
-    // We are placing the `example` Workflow to the `hello-world` task queue. We have a Worker configured to poll for tasks on the `hello-world` task-queue in `worker.ts`.
+    // We are placing the `example` Workflow on the `hello-world` task queue. We have a Worker configured to poll for tasks on the `hello-world` task-queue in `worker.ts`.
     taskQueue: 'hello-world',
     // `Temporal` will be the argument provided to the `example` Workflow.
     args: ['Temporal'],

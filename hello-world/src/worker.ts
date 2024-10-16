@@ -1,5 +1,9 @@
 /*
-Workers are responsible for running your Temporal code. When you start a Workflow in Temporal, tasks get placed into a Task Queue. The Task Queue helps route tasks to the appropriate Worker, which executes the tasks. Workers continuously poll this queue for tasks and execute them. The Workflow doesn't proceed until a Worker picks up and processes the Workflow Task from the Task Queue.
+Workers are responsible for running your Temporal code. When you start a Workflow in Temporal, tasks get placed into a Task Queue. 
+
+The Task Queue helps route tasks to the appropriate Worker, which executes the tasks. 
+
+Workers continuously poll this queue for tasks and execute them. The Workflow doesn't proceed until a Worker picks up and processes the Workflow Task from the Task Queue.
 */
 
 import { NativeConnection, Worker } from '@temporalio/worker';
@@ -19,9 +23,7 @@ async function run() {
     activities,
   });
 
-  // Step 3: Start accepting tasks on the `hello-world` queue
-  //
-  // The worker runs until it encounters an unexpected error or the process receives a shutdown 
+  // Step 3: The worker runs until it encounters an unexpected error or the process receives a shutdown 
   await worker.run();
 }
 
